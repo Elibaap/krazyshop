@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/krazyshop/static/css/main.84c6efe0.chunk.css",
+    "main.js": "/krazyshop/static/js/main.50d3b0a7.chunk.js",
+    "main.js.map": "/krazyshop/static/js/main.50d3b0a7.chunk.js.map",
+    "runtime-main.js": "/krazyshop/static/js/runtime-main.79cd80f4.js",
+    "runtime-main.js.map": "/krazyshop/static/js/runtime-main.79cd80f4.js.map",
+    "static/js/2.0f83687d.chunk.js": "/krazyshop/static/js/2.0f83687d.chunk.js",
+    "static/js/2.0f83687d.chunk.js.map": "/krazyshop/static/js/2.0f83687d.chunk.js.map",
+    "index.html": "/krazyshop/index.html",
+    "static/css/main.84c6efe0.chunk.css.map": "/krazyshop/static/css/main.84c6efe0.chunk.css.map",
+    "static/js/2.0f83687d.chunk.js.LICENSE.txt": "/krazyshop/static/js/2.0f83687d.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/krazyshop/static/media/paypal-784404-image-by-copyrightfree-pictures-from-pixabay.7fd6753c.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.79cd80f4.js",
+    "static/js/2.0f83687d.chunk.js",
+    "static/css/main.84c6efe0.chunk.css",
+    "static/js/main.50d3b0a7.chunk.js"
+  ]
+}
