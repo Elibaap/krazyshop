@@ -1,0 +1,467 @@
+@import url("https://fonts.googleapis.com/css2?family=Fugaz+One&family=Poppins:wght@300;400;500;600;800&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+}
+
+#all-products-section,
+#women-clothing-section,
+#men-clothing-section,
+#jewelry-section,
+#electronics-section,
+#cart-section,
+.product-info-section {
+  position: relative;
+  min-height: 100vh;
+}
+
+nav {
+  padding-top: 10px;
+  display: grid;
+  grid-template-columns: 20% 70% 10%;
+  align-items: center;
+  font-size: 0.83rem;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.logo {
+  font-family: "Fugaz One", cursive;
+  font-size: 1.85rem;
+  justify-self: center;
+}
+
+.nav-pgs-links {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+
+.cart-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cart-total-items {
+  margin-bottom: -6px;
+  font-size: 0.75rem;
+}
+
+#home-div {
+  width: inherit;
+  height: inherit;
+  background-color: black;
+  background-image: url("https://i.imgur.com/ngE6PJh.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+#tagline-article {
+  padding-left: 60px;
+  padding-top: 30vh;
+}
+
+#main-tagline {
+  margin-bottom: 5px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-size: 2.15rem;
+}
+
+#sub-tagline {
+  margin: 0 0 20px;
+  padding-bottom: 8px;
+  font-size: 0.935rem;
+}
+
+#tagline-btn-offset-border {
+  border: 1px solid white;
+  margin-top: 6px;
+  margin-left: 6px;
+  width: 170px;
+  height: 52px;
+}
+
+#tagline-btn {
+  background-color: white;
+  margin-top: -6px;
+  margin-left: -6px;
+  padding: 15px 30px;
+  width: 170px;
+  height: 52px;
+  border: none;
+  color: black;
+  font-size: 17px;
+  font-weight: 400;
+}
+
+#tagline-btn:active {
+  transform: translateY(5px) translateX(5px);
+  transition: transform 0.2s;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
+}
+
+header {
+  padding-top: 30px;
+  text-align: center;
+}
+
+.breadcrumb-div {
+  font-size: 0.8rem;
+}
+
+.breadcrumb-text {
+  display: inline-block;
+  text-decoration: underline;
+}
+
+.breadcrumb-text::first-letter,
+.breadcrumb-last-section::first-letter {
+  text-transform: uppercase;
+}
+
+.breadcrumb-separator {
+  margin: 0 5px;
+}
+
+.breadcrumb-last-section {
+  display: inline-block;
+  color: dimgrey;
+}
+
+.prod-pg-title {
+  margin-top: 3px;
+}
+
+.products-article {
+  padding: 60px 200px 130px;
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  grid-gap: 100px 70px;
+}
+
+.prod-sum-card-link {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  height: 250px;
+  font-size: 0.85rem;
+  color: black;
+}
+
+.prod-sum-img-div,
+.prod-full-desc-image-div,
+.shopped-item-image-div {
+  background-color: white;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 90%;
+  align-self: center;
+}
+
+.prod-sum-info-div {
+  padding-left: 25px;
+}
+
+.prod-sum-price {
+  margin-bottom: 0;
+  font-weight: 500;
+  font-size: 0.95rem;
+}
+
+.prod-sum-title {
+  margin-top: 7px;
+}
+
+.prod-full-desc-card-article {
+  margin: 0 auto;
+  padding: 20px 50px 150px;
+  display: grid;
+  grid-template-columns: 40% 60%;
+  width: 50%;
+  font-size: 0.85rem;
+  color: black;
+}
+
+.prod-full-desc-info-div {
+  padding-left: 40px;
+}
+
+.prod-full-desc-price {
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+.prod-full-desc-title {
+  font-weight: 500;
+  font-size: 0.95rem;
+}
+
+.prod-full-desc-excerpt {
+  padding-bottom: 20px;
+}
+
+.add-to-bask-btn-offset-border {
+  border: 1px solid black;
+  margin-top: 6px;
+  margin-left: 6px;
+  width: 195px;
+  height: 55px;
+}
+
+.add-to-bask-btn {
+  background-color: black;
+  margin-top: -6px;
+  margin-left: -6px;
+  padding: 15px 30px;
+  width: 195px;
+  height: 55px;
+  border: none;
+  color: white;
+  font-size: 0.92rem;
+  font-weight: 400;
+}
+
+.add-to-bask-btn:active {
+  transform: translateY(5px) translateX(5px);
+  transition: transform 0.2s;
+}
+
+#added-to-bask-modal-bg {
+  display: none;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.55);
+}
+
+#added-to-bask-modal-div {
+  position: relative;
+  top: 43vh;
+  border: 1px solid #c3e6cb;
+  background-color: #d4edda;
+  border-radius: 0.25rem;
+  margin: 0 auto;
+  padding: 0 18px;
+  width: 50%;
+  height: 65px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#added-to-bask-modal-chk-mark-span {
+  background-color: #155724;
+  color: #d4edda;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  line-height: 25px;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+#added-to-bask-modal-text-span {
+  font-size: 1.1rem;
+}
+
+#view-bask-modal-btn {
+  background-color: transparent;
+  padding: 8px 23px;
+  border: 1.6px solid #155724;
+  color: #155724;
+  font-size: 0.92rem;
+  font-weight: 500;
+}
+
+#view-bask-modal-btn:hover {
+  background-color: #155724;
+  color: #d4edda;
+}
+
+#close-added-to-bask-modal-icon {
+  font-size: 1.1rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+#close-added-to-bask-modal-icon:hover {
+  color: #155724;
+}
+
+#shopped-items-and-total-price-div {
+  display: grid;
+  grid-template-columns: 75% 25%;
+  padding: 30px 30px 150px;
+}
+
+.shopped-item-card {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  margin: 0 auto 50px;
+  padding: 15px;
+  border: 1px solid dimgrey;
+  width: 70%;
+  height: 250px;
+  font-size: 0.85rem;
+  color: black;
+}
+
+.shopped-item-info-div {
+  padding-left: 25px;
+}
+
+.shopped-item-price {
+  margin-bottom: 0;
+  font-weight: 500;
+  font-size: 0.95rem;
+}
+
+.shopped-item-title {
+  margin-top: 7px;
+}
+
+.shopped-item-quantity {
+  padding-left: 7px;
+  width: 100px;
+  height: 30px;
+  border: 1px solid dimgrey;
+}
+
+.shopped-item-quantity:focus {
+  outline: 0;
+}
+
+.shopped-item-remove-div {
+  padding-top: 18px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.shopped-item-remove-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 17px;
+  height: 17px;
+  border-radius: 50%;
+  border: 1px solid black;
+  background-color: black;
+  color: white;
+}
+
+.shopped-item-remove-text {
+  padding-left: 7px;
+}
+
+#total-qty-and-price-div {
+  display: grid;
+  grid-template-columns: 70% 30%;
+  grid-row-gap: 7px;
+}
+
+.summary-total {
+  font-weight: 600;
+}
+
+#payment-method-section {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+#bank-card-btn-offset-border {
+  border: 1px solid black;
+  margin-top: 4px;
+  margin-left: 4px;
+  width: 90%;
+  height: 50px;
+}
+
+#bank-card-btn {
+  background-color: black;
+  margin-top: -4px;
+  margin-left: -4px;
+  padding: 15px 30px;
+  width: 100%;
+  height: 50px;
+  border: none;
+  color: white;
+  font-weight: 400;
+  font-size: 1.05rem;
+}
+
+#bank-card-btn:active {
+  transform: translateY(4px) translateX(4px);
+  transition: transform 0.2s;
+}
+
+#bank-card-btn-text {
+  padding-left: 5px;
+}
+
+#paypal-btn {
+  margin-top: 40px;
+  padding: 15px 30px;
+  width: 90%;
+  height: 50px;
+  border: 1px solid black;
+  background-color: transparent;
+  background-image: url("./assets/image/paypal-784404-image-by-copyrightfree-pictures-from-pixabay.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#paypal-btn:active {
+  transform: scale(0.97, 0.97);
+  transition: transform 0.2s;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 3rem;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-link {
+  font-size: 0.85rem;
+  color: white;
+}
+
+.footer-link:hover {
+  color: #f7cf7e;
+}
