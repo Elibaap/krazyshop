@@ -1,6 +1,6 @@
 # Krazy Shop
 
-[Live Demo]() :point_left:
+[Live Demo](https://elibaap.github.io/krazyshop) :point_left:
 
 ## Getting started
 
